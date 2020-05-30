@@ -1,0 +1,9 @@
+<section class="todoapp">
+    <app-todo-add></app-todo-add>
+    <section class="main">
+        <input id="toggle-all" type="checkbox" class="toggle-all">
+        <label (click)="toggleAll()" for="toggle-all">Marcar todas como completadas</label>
+        <app-todo-list></app-todo-list>
+    </section>
+    <app-todo-footer></app-todo-footer>
+</section>
